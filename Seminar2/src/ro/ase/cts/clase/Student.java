@@ -19,7 +19,7 @@ public class Student extends Aplicant {
 	public void setAn_studii(int an_studii) {
 		this.an_studii = an_studii;
 	}
-
+	private static float sumaFinantare = 20;
 
 	public Student() {
 		super();
@@ -31,16 +31,29 @@ public class Student extends Aplicant {
 		this.facultate = facultate;
 		this.an_studii = an_studii;
 	}
+
 	@Override
 	public String toString() {
-		return "Student: Nume=" + nume + ", Prenume=" + prenume + ", Varsta=" + varsta + ", Punctaj=" + punctaj + ", Nr_proiecte=" + nr_proiecte +  ", DenumireProiect=" + Arrays.toString(denumiriProiecte) + "Facultate=" + facultate + ", An_studii=" + an_studii ;
+		final StringBuilder sb = new StringBuilder("Student{");
+		sb.append("nume='").append(nume).append('\'');
+		sb.append(", prenume='").append(prenume).append('\'');
+		sb.append(", varsta=").append(varsta);
+		sb.append(", punctaj=").append(punctaj);
+		sb.append(", nr_proiecte=").append(nr_proiecte);
+		sb.append(", denumiriProiecte=").append(Arrays.toString(denumiriProiecte));
+		sb.append(", facultate='").append(facultate).append('\'');
+		sb.append(", an_studii=").append(an_studii);
+		sb.append('}');
+		return sb.toString();
 	}
-	
-	
-	public int finantare() {
-		int s=20;
-		System.out.println("Studentul "+getNume()+" "+getPrenume()+" primeste"+s+" Euro/zi in proiect.");
-		return s;
+
+	public static float getStaticSumaFinantare(){
+		return Student.sumaFinantare;
+	}
+
+	@Override
+	public float getSumaFinantare() {
+		return	Student.sumaFinantare;
 	}
 	
 }
