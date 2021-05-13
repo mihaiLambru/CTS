@@ -13,5 +13,10 @@ public class Program {
         afisareInformatiiPersonal(new FactoryBrancardier(),"Ionut");
         afisareInformatiiPersonal(new FactoryInfirmier(),"George");
 
+        FactoryAsistent asistentFactory = new FactoryAsistent();
+        Asistent asistent = (Asistent) asistentFactory.getPErsonal("Mihai-Alexandru");
+        System.out.println("Facut de mine: " + asistent.toString() );
+
+
     }
 }
