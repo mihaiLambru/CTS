@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5273293-5d67-40f2-a7ae-1dab8ea5bd87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/Facade/Bilet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/Facade/Buletin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/adapterV2/Bilet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/adapterV2/BiletAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/adapterV2/IeBilet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/chain/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/chain/EtapaAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/chain/SalvareDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/chain/VerificareVarsta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/composite/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/composite/IMechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/composite/Mechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/singletone/GeneratorCod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/singletone/Locuinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/strategy2/ClientNou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/strategy2/ILocuinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PersonalMedical/src/ro/ase/cts/Chain/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PersonalMedical/src/ro/ase/cts/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/command/Cerere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/command/CerereAdeverinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/command/IProcesatorCerere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/command/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/command/ProcesareNormala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/command/ProcesareUrgenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/command/TipCerere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/singletone/IRobotSoftware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/singletone/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/Avizare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/CerereStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/CerereTrimisaPeFlux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/Confirmata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/ICerereStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/IStare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/Respinsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state/Verificare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExempleTest/src/ro/ase/cts/Facade/Sistem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonalMedical/src/ro/ase/cts/adapter/BiletAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonalMedical/src/ro/ase/cts/adapter/BiletAdapter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sX6cyCsX1TTqfYzjyxKpfqJOo0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cts/lambru/mihai/gr1081/state" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\CTS\Test2\src\cts\lambru\mihai\gr1081\state" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultate\CTS\Test2\src\cts\lambru\mihai\gr1081\state" />
+      <recent name="D:\Facultate\CTS\Test2\src\cts\lambru\mihai\1081\clase" />
+      <recent name="D:\Facultate\CTS\Test2\src\cts\lambru\mihai\1081\singletone" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cts.lambru.mihai.gr1081.main.Main" />
+      <module name="Test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cts.lambru.mihai.gr1081.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5273293-5d67-40f2-a7ae-1dab8ea5bd87" name="Default Changelist" comment="" />
+      <created>1621006671191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621006671191</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

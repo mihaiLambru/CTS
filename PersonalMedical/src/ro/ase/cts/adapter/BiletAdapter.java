@@ -15,5 +15,6 @@ public class BiletAdapter implements  IBiletOnline{
 
     @Override
     public void rezervaBiletOnline() {
+
     }
 }
