@@ -1,9 +1,11 @@
 package ro.ase.cts.teste2.teste;
 
+import jdk.jfr.Category;
 import org.junit.Test;
 import ro.ase.cts.teste2.clase.Grupa;
 import ro.ase.cts.teste2.clase.IStudent;
 import ro.ase.cts.teste2.clase.Student;
+import ro.ase.cts.teste2.teste.categorii.ConstructorCategory;
 
 import java.security.PrivilegedActionException;
 
@@ -11,22 +13,26 @@ import static org.junit.Assert.*;
 
 public class GrupaTest {
     @Test
+    @Category( ConstructorCategory.class)
     public void testConstructorNumarGrupaCorect(){
         Grupa grupa = new Grupa(1081);
         assertEquals(1081,grupa.getNrGrupa());
     }
     @Test
+    @Category( ConstructorCategory.class)
     public void testConstructor(){
         Grupa grupa = new Grupa(1081);
         assertNotNull(grupa.getStudenti());
     }
 
     @Test
+    @Category( ConstructorCategory.class)
     public void testConstructorLimitaInferioara(){
         Grupa grupa = new Grupa(1000);
         assertEquals(1000,grupa.getNrGrupa());
     }
     @Test
+    @Category( ConstructorCategory.class)
     public void testConstructorLimitaSuperioara(){
         Grupa grupa = new Grupa(1100);
         assertEquals(1100,grupa.getNrGrupa());
@@ -36,6 +42,7 @@ public class GrupaTest {
         Grupa grupa = new Grupa(900);
     }
     @Test(expected = IllegalArgumentException.class)
+    @Category( ConstructorCategory.class)
     public void testExceptieConstructorSuperior(){
         Grupa grupa = new Grupa(1200);
     }
